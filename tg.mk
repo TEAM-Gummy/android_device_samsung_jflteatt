@@ -1,8 +1,5 @@
 $(call inherit-product, device/samsung/jflteatt/full_jflteatt.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/Gummy/config/gsm.mk)
-
 # Enhanced NFC
 $(call inherit-product, vendor/Gummy/config/nfc_enhanced.mk)
 
